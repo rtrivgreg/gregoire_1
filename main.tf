@@ -6,7 +6,7 @@ locals {
   web_name = format("%s-website", random_pet.name.id)
 
   # GitHut Repository
-  repo_name = "demo-terraform-basics"
+  repo_name = "gregoire_1
 }
 
 resource "random_pet" "name" {

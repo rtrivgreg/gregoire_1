@@ -1,6 +1,6 @@
 locals {
 
-  # Azure Configuration
+  # Azure Configuration fo Ray 2
   location = "eastus2"
   rg_name  = format("%s-rg", random_pet.name.id)
   web_name = format("%s-website", random_pet.name.id)
